@@ -1,0 +1,74 @@
+body {
+background-color:#F5F5F5;
+color:  #757575 
+}
+
+/* прибирання маркерів */
+ul {
+list-style: none;
+}
+
+/*фоновий колір Наші Цінності - #F5F5F5*/
+/*фоновий колір для Наша Команда - #F5F4FA*/
+/*білий колір #FFFFFF*/
+/* основний колір тексту сірий - #757575 */
+/* другорядний колір тексту чорний- заголовки - #212121 */
+/*колір акценту текста синій #2196F3  */
+/*додатковий чорний на лого - #000000 */
+/*фоновий колір героя та футера- #2F303A*/
+/* колір телефону та пошти в футері - rgba(255, 255, 255, 0.6)*/
+
+/* стилі хедера */
+.logo-web { color: #2196F3}
+
+.logo-studioheader { color: #000000}
+
+.logo-studiofooter {color: #ffffff}
+
+.site-nav a {
+    color: #212121
+}
+.site-nav a:hover, .site-nav a:focus {
+    color: #2196F3} 
+
+.contact-list a {
+    color: #757575
+}
+
+.contact-list a:hover, .contact-list a:focus {
+    color:#2196F3}
+
+    /* стилі головного змісу - мейна */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #ffffff 
+}
+
+
+.hero- button {
+    background-color: #2196F3;
+    color: #ffffff
+}
+
+
+.section-title {
+    color:#212121
+}
+.title-name {
+    color: #212121
+}
+
+
+/* стилі футера */
+
+footer {
+    background-color: #2F303A;
+}
+
+.address {color:#ffffff}
+
+.email, .phone {color: rgba(255, 255, 255, 0.6) }
