@@ -49,11 +49,27 @@ list-style: none;
 }
 
 
-.hero- button {
+.hero-button {
     background-color: #2196F3;
     color: #ffffff
 }
 
+.hero-button:hover, .hero-button:focus {
+    background-color: #2196F3;
+        color: #ffffff
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 .section-title {
     color:#212121
@@ -62,6 +78,12 @@ list-style: none;
     color: #212121
 }
 
+.team {
+   background-color: #F5F4FA; 
+}
+.team-members {
+    background-color: #FFFFFF;
+}
 
 /* стилі футера */
 
@@ -70,5 +92,10 @@ footer {
 }
 
 .address {color:#ffffff}
+
+.adress-list a:focus, .address-list a:hover{
+    color: #2196F3;
+}
+
 
 .email, .phone {color: rgba(255, 255, 255, 0.6) }
