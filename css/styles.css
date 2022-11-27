@@ -1,5 +1,5 @@
 body {
-background-color:#F5F5F5;
+background-color:#ffffff;
 color:  #757575 
 }
 
@@ -38,7 +38,7 @@ list-style: none;
 .contact-list a:hover, .contact-list a:focus {
     color:#2196F3}
 
-    /* стилі головного змісу - мейна */
+    /* стилі головної сторінки */
 
 .hero {
     background-color: #2F303A;
@@ -85,6 +85,29 @@ list-style: none;
     background-color: #FFFFFF;
 }
 
+/* стилі сторінки Портфоліо */
+
+.portfolio-button {
+
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+.portfolio-button:hover, .portfolio-button:focus {
+
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+.photo-background {
+    background-color: #EEEEEE;
+}
+
+.portfolio-projects h3,p {
+background-color: #FFFFFF;
+
+}
+
 /* стилі футера */
 
 footer {
@@ -99,3 +122,5 @@ footer {
 
 
 .email, .phone {color: rgba(255, 255, 255, 0.6) }
+
+
