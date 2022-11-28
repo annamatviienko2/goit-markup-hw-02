@@ -1,6 +1,10 @@
 body {
 background-color:#ffffff;
-color:  #757575 
+color:  #757575;
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+
+
 }
 
 /* прибирання маркерів */
@@ -19,24 +23,67 @@ list-style: none;
 /* колір телефону та пошти в футері - rgba(255, 255, 255, 0.6)*/
 
 /* стилі хедера */
-.logo-web { color: #2196F3}
+.logo-web { 
+color: #2196F3;
 
-.logo-studioheader { color: #000000}
+font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;    
+}
 
-.logo-studiofooter {color: #ffffff}
+.logo-studioheader { 
+color: #000000;
+
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+}
+
+.logo-studiofooter {
+color: #ffffff;
+
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+}
 
 .site-nav a {
-    color: #212121
+    color: #212121;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav a:hover, .site-nav a:focus {
-    color: #2196F3} 
+    color: #2196F3;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+} 
 
 .contact-list a {
-    color: #757575
+    color: #757575;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contact-list a:hover, .contact-list a:focus {
-    color:#2196F3}
+    color:#2196F3;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 
     /* стилі головної сторінки */
 
@@ -45,18 +92,43 @@ list-style: none;
 }
 
 .hero-title {
-    color: #ffffff 
+    color: #ffffff;
+  
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 
 .hero-button {
     background-color: #2196F3;
-    color: #ffffff
+    color: #ffffff;
+
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
 
 .hero-button:hover, .hero-button:focus {
     background-color: #2196F3;
-        color: #ffffff
+    color: #ffffff;
+
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
 .visually-hidden {
     position: absolute;
@@ -72,41 +144,66 @@ list-style: none;
 }
 
 .section-title {
-    color:#212121
+    color:#212121;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
+
+
 .title-name {
-    color: #212121
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.values p {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .team {
    background-color: #F5F4FA; 
+   
 }
 .team-members {
     background-color: #FFFFFF;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
+.team-members p {
+    font-weight: 00;
+}
 /* стилі сторінки Портфоліо */
 
 .portfolio-button {
 
     background-color: #F5F4FA;
     color: #212121;
+    font-family: inherit;
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
 
     background-color: #2196F3;
     color: #ffffff;
+    font-family: inherit;
 }
 
 .photo-background {
     background-color: #EEEEEE;
 }
 
-.portfolio-projects h3,p {
-background-color: #FFFFFF;
 
-}
 
 /* стилі футера */
 
@@ -114,11 +211,25 @@ footer {
     background-color: #2F303A;
 }
 
+
+.address-list {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    }
+
+.adress-list a:focus,
+.address-list a:hover {
+    color: #2196F3;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
 .address {color:#ffffff}
 
-.adress-list a:focus, .address-list a:hover{
-    color: #2196F3;
-}
 
 
 .email, .phone {color: rgba(255, 255, 255, 0.6) }
