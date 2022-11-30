@@ -9,7 +9,7 @@
 }
 
 body {
-background-color: var (--background-color);
+background-color: var(--background-color);
 color: var(--paragraf-color);
 font-family: 'Roboto', sans-serif;
 letter-spacing: 0.03em;
@@ -131,17 +131,9 @@ color: var(--background-color);
 }
 
 .hero-button:hover, .hero-button:focus {
-    color: var(--background-color);
-      
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;       
-    text-align: center;
-    letter-spacing: 0.06em;
+    background-color: #188CE8;
     
-    cursor: pointer;
-}
+    }
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -183,23 +175,23 @@ color: var(--background-color);
    background-color: var(--secondary-background-color); 
    
 }
-.team-members {
-    
-    color: var(--header-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-}
 
 .team-item {
     background-color: var(--background-color);
 }
 
+.team-member {
+    color: var(--header-color);
 
-.team-members p {
-    color: var(--paragraf-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-profession {
     font-weight: 400;
-    
+    font-size: 16px;
+    line-height: 1.19;
 }
 /* стилі сторінки Портфоліо */
 
@@ -219,12 +211,7 @@ color: var(--background-color);
 
     background-color: var(--text-accent-color);
     color: var(--background-color);
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-
-    cursor: pointer
+   
 }
 
 .photo-background {
